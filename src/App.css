@@ -1,14 +1,50 @@
+/* Estructura de la app*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+html,
+body {
+  color: white;
+  background-color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 40px;
+}
+h1 {
+  color: white;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  margin: 20px 0;
+}
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Logo de la app*/
+.logo-tareas-contenedor {
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-tareas {
+  width: 200px;
+  height: 200px;
+}
+
+/* listade tareas*/
+.tareas-lista-principal {
+  width: 600px;
+  min-height: 500px;
+  background-color: rgb(0, 128, 255);
+  padding: 25px;
+  margin: 10px;
+  justify-content: center;
+  border-radius: 26px;
 }
